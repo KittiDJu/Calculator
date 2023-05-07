@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <p class="intro">Calculator</p>
+    </div>
+    <div class="calculator-grid">
+        <div class="output">
+            <p id="display" class="display-box">0</p>
+            <p id="result" class="result-box">0</p>
+        </div>
+        <button class="span-four" onclick="allClear()">AC</button>
+        <button onclick="setNumber(7)">7</button>
+        <button onclick="setNumber(8)">8</button>
+        <button onclick="setNumber(9)">9</button>
+        <button onclick="setOperator('/')">÷</button>
+        <button onclick="setNumber(4)">4</button>
+        <button onclick="setNumber(5)">5</button>
+        <button onclick="setNumber(6)">6</button>
+        <button onclick="setOperator('*')">×</button>
+        <button onclick="setNumber(1)">1</button>
+        <button onclick="setNumber(2)">2</button>
+        <button onclick="setNumber(3)">3</button>
+        <button onclick="setOperator('+')">+</button>
+        <button style="border-bottom-left-radius: 10px;" onclick="setNumber(0)">0</button>
+        <button class="span-two" onclick="result()">=</button>
+        <button style="border-bottom-right-radius: 10px;"onclick="setOperator('-')">-</button>
+    </div>
+</body>
+
+</html>
